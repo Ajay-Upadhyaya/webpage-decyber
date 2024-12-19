@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.parent {
+  background-image: url(./images/img2.png);
+  width: 100%;
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+  
+}
+.main {
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  background-image: linear-gradient(
+    rgb(7, 35, 46, 0),
+    rgb(47, 147, 240, 0.8)
+  );
+  opacity: 0.9;
+}
+
+.main nav {
+  padding: 10px;
+  max-width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  display: flex;
+  color: white;
+}
+.logo h2 {
+  margin-top: 15px;
+}
+nav .links {
+  margin-left: 300px;
+}
+.main nav .links ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  column-gap: 30px;
+  width: 70%;
+}
+.main nav .links ul a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(237, 229, 229);
+  font-size: larger;
+  
+}
+.main nav .links ul a:hover {
+  color: rgb(243, 32, 32);
+}
+.main .links .dropdn-content{
+  display: none;
+  padding: 8px;
+  position: absolute;
+  border-radius: 5px;
+  background-image: linear-gradient(rgb(66, 66, 229), skyblue);
+
+}
+ .main .links .dropdn-content a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  
+}
+
+.drpdn:hover .dropdn-content {
+  display: block;
+}
+
+.main nav .links {
+  display: flex;
+  width: 50%;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main nav .links button {
+  background-color: rgb(32, 230, 32);
+  padding: 8px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+}
+.main nav .links button:hover {
+  background-color: rgb(243, 32, 32);
+}
+.main .content {
+  width: 500px;
+  border: 2px red;
+  margin: 100px 150px;
+  color: white;
+}
+.main .content h1,
+p {
+  margin-bottom: 20px;
+}
+.main .content button {
+  background-color: rgb(32, 230, 32);
+  padding: 8px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+}
+.main .content button:hover {
+  background-color: rgb(243, 32, 32);
+}
+#middle {
+  height: max-content;
+  max-width: 100%;
+  background-image: linear-gradient(rgb(24, 24, 111), rgb(8, 92, 125));
+}
+#middle .boxes {
+  width: 800px;
+  height: 500px;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  gap: 2px;
+}
+#middle .boxes .box {
+  width: 300px;
+  height: 320px;
+  background-color: rgb(10, 10, 69);
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+  background-image: linear-gradient(rgb(67, 67, 235), rgb(69, 192, 240));
+}
+#middle .boxes .box:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+#middle .boxes .box:hover i{
+  color: white;
+}
+#middle .boxes .box:hover h2{
+  color:  rgb(19, 247, 87);
+}
+
+.boxes .box i {
+  font-size: 40px;
+  color: rgb(3, 171, 3);
+  background: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#special i {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  background: none;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+.boxes .box p {
+  margin-top: 20px;
+}
+
+#special p {
+  margin-top: 30px;
+}
+.boxes .box button {
+  padding: 8px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid rgb(228, 210, 210);
+  background: none;
+}
+
+#special button {
+  padding: 8px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: navy;
+  cursor: pointer;
+  border: 1px solid rgb(56, 54, 54);
+  background-color: white;
+}
+.boxes .box button:hover,
+#special button:hover {
+  cursor: pointer;
+  background-color: rgb(243, 32, 32);
+}
+.boxes #special {
+  width: 320px;
+  height: 380px;
+  background-image: linear-gradient(to bottom right, rgb(36, 235, 36), skyblue);
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+}
+.boxes #special:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#middle .words {
+  height: 150px;
+  max-width: 100%;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+#middle .words h2 {
+  margin-bottom: 25px;
+}
+#middle .both {
+  height: 600px;
+  width: 100%;
+  color: white;
+  display: flex;
+  gap: 150px;
+}
+#middle .both .photo {
+  height: 500px;
+  width: 400px;
+}
+#middle .both .photo img {
+  width: 400px;
+  height: 500px;
+  border-radius: 4px;
+  position: relative;
+  left: 80px;
+  top: 50px;
+  cursor: pointer;
+}
+#middle .both .photo img:hover {
+  opacity: 0.8;
+}
+
+#middle .both .side {
+  height: 400px;
+  width: 50%;
+  color: white;
+  padding: 80px 50px 0 20px;
+  margin-top: 30px;
+}
+#middle .both .side h1 {
+  margin-bottom: 15px;
+  margin-left: 7px;
+}
+#middle .both .side p {
+  margin-left: 7px;
+}
+
+#middle .both .side .down div {
+  height: 100px;
+  width: 600px;
+  color: white;
+  background-color: rgb(4, 108, 134);
+  border-radius: 4px;
+  padding-top: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+#middle .both .side .down .down1 h3 {
+  margin: 15px;
+}
+#middle .both .side .down .down1 p {
+  line-height: 20px;
+  margin: 15px;
+}
+footer {
+  background-image: url(images/img4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 400px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+  opacity: 0.9;
+}
+footer span {
+  color: green;
+}
+footer h2 {
+  margin: 20px;
+}
